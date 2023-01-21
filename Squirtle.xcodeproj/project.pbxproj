@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B489ABE6297C6171008EF931 /* SquirtleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489ABE5297C6171008EF931 /* SquirtleApp.swift */; };
+		B489ABE8297C6171008EF931 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489ABE7297C6171008EF931 /* ContentView.swift */; };
+		B489ABEA297C6172008EF931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B489ABE9297C6172008EF931 /* Assets.xcassets */; };
+		B489ABED297C6172008EF931 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B489ABEC297C6172008EF931 /* Preview Assets.xcassets */; };
+		B489ABF8297C6172008EF931 /* SquirtleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489ABF7297C6172008EF931 /* SquirtleTests.swift */; };
+		B489AC02297C6172008EF931 /* SquirtleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489AC01297C6172008EF931 /* SquirtleUITests.swift */; };
+		B489AC04297C6172008EF931 /* SquirtleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489AC03297C6172008EF931 /* SquirtleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B489ABF4297C6172008EF931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B489ABDA297C6171008EF931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B489ABE1297C6171008EF931;
+			remoteInfo = Squirtle;
+		};
+		B489ABFE297C6172008EF931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B489ABDA297C6171008EF931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B489ABE1297C6171008EF931;
+			remoteInfo = Squirtle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B489ABE2297C6171008EF931 /* Squirtle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squirtle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B489ABE5297C6171008EF931 /* SquirtleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirtleApp.swift; sourceTree = "<group>"; };
+		B489ABE7297C6171008EF931 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B489ABE9297C6172008EF931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B489ABEC297C6172008EF931 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B489ABEE297C6172008EF931 /* Squirtle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Squirtle.entitlements; sourceTree = "<group>"; };
+		B489ABF3297C6172008EF931 /* SquirtleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirtleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B489ABF7297C6172008EF931 /* SquirtleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirtleTests.swift; sourceTree = "<group>"; };
+		B489ABFD297C6172008EF931 /* SquirtleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirtleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B489AC01297C6172008EF931 /* SquirtleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirtleUITests.swift; sourceTree = "<group>"; };
+		B489AC03297C6172008EF931 /* SquirtleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirtleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B489ABDF297C6171008EF931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B489ABF0297C6172008EF931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B489ABFA297C6172008EF931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B489ABD9297C6171008EF931 = {
+			isa = PBXGroup;
+			children = (
+				B489ABE4297C6171008EF931 /* Squirtle */,
+				B489ABF6297C6172008EF931 /* SquirtleTests */,
+				B489AC00297C6172008EF931 /* SquirtleUITests */,
+				B489ABE3297C6171008EF931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B489ABE3297C6171008EF931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B489ABE2297C6171008EF931 /* Squirtle.app */,
+				B489ABF3297C6172008EF931 /* SquirtleTests.xctest */,
+				B489ABFD297C6172008EF931 /* SquirtleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B489ABE4297C6171008EF931 /* Squirtle */ = {
+			isa = PBXGroup;
+			children = (
+				B489ABE5297C6171008EF931 /* SquirtleApp.swift */,
+				B489ABE7297C6171008EF931 /* ContentView.swift */,
+				B489ABE9297C6172008EF931 /* Assets.xcassets */,
+				B489ABEE297C6172008EF931 /* Squirtle.entitlements */,
+				B489ABEB297C6172008EF931 /* Preview Content */,
+			);
+			path = Squirtle;
+			sourceTree = "<group>";
+		};
+		B489ABEB297C6172008EF931 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B489ABEC297C6172008EF931 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B489ABF6297C6172008EF931 /* SquirtleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B489ABF7297C6172008EF931 /* SquirtleTests.swift */,
+			);
+			path = SquirtleTests;
+			sourceTree = "<group>";
+		};
+		B489AC00297C6172008EF931 /* SquirtleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B489AC01297C6172008EF931 /* SquirtleUITests.swift */,
+				B489AC03297C6172008EF931 /* SquirtleUITestsLaunchTests.swift */,
+			);
+			path = SquirtleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B489ABE1297C6171008EF931 /* Squirtle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B489AC07297C6172008EF931 /* Build configuration list for PBXNativeTarget "Squirtle" */;
+			buildPhases = (
+				B489ABDE297C6171008EF931 /* Sources */,
+				B489ABDF297C6171008EF931 /* Frameworks */,
+				B489ABE0297C6171008EF931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squirtle;
+			productName = Squirtle;
+			productReference = B489ABE2297C6171008EF931 /* Squirtle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B489ABF2297C6172008EF931 /* SquirtleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B489AC0A297C6172008EF931 /* Build configuration list for PBXNativeTarget "SquirtleTests" */;
+			buildPhases = (
+				B489ABEF297C6172008EF931 /* Sources */,
+				B489ABF0297C6172008EF931 /* Frameworks */,
+				B489ABF1297C6172008EF931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B489ABF5297C6172008EF931 /* PBXTargetDependency */,
+			);
+			name = SquirtleTests;
+			productName = SquirtleTests;
+			productReference = B489ABF3297C6172008EF931 /* SquirtleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B489ABFC297C6172008EF931 /* SquirtleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B489AC0D297C6172008EF931 /* Build configuration list for PBXNativeTarget "SquirtleUITests" */;
+			buildPhases = (
+				B489ABF9297C6172008EF931 /* Sources */,
+				B489ABFA297C6172008EF931 /* Frameworks */,
+				B489ABFB297C6172008EF931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B489ABFF297C6172008EF931 /* PBXTargetDependency */,
+			);
+			name = SquirtleUITests;
+			productName = SquirtleUITests;
+			productReference = B489ABFD297C6172008EF931 /* SquirtleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B489ABDA297C6171008EF931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B489ABE1297C6171008EF931 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B489ABF2297C6172008EF931 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B489ABE1297C6171008EF931;
+					};
+					B489ABFC297C6172008EF931 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B489ABE1297C6171008EF931;
+					};
+				};
+			};
+			buildConfigurationList = B489ABDD297C6171008EF931 /* Build configuration list for PBXProject "Squirtle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B489ABD9297C6171008EF931;
+			productRefGroup = B489ABE3297C6171008EF931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B489ABE1297C6171008EF931 /* Squirtle */,
+				B489ABF2297C6172008EF931 /* SquirtleTests */,
+				B489ABFC297C6172008EF931 /* SquirtleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B489ABE0297C6171008EF931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B489ABED297C6172008EF931 /* Preview Assets.xcassets in Resources */,
+				B489ABEA297C6172008EF931 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B489ABF1297C6172008EF931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B489ABFB297C6172008EF931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B489ABDE297C6171008EF931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B489ABE8297C6171008EF931 /* ContentView.swift in Sources */,
+				B489ABE6297C6171008EF931 /* SquirtleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B489ABEF297C6172008EF931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B489ABF8297C6172008EF931 /* SquirtleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B489ABF9297C6172008EF931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B489AC04297C6172008EF931 /* SquirtleUITestsLaunchTests.swift in Sources */,
+				B489AC02297C6172008EF931 /* SquirtleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B489ABF5297C6172008EF931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B489ABE1297C6171008EF931 /* Squirtle */;
+			targetProxy = B489ABF4297C6172008EF931 /* PBXContainerItemProxy */;
+		};
+		B489ABFF297C6172008EF931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B489ABE1297C6171008EF931 /* Squirtle */;
+			targetProxy = B489ABFE297C6172008EF931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B489AC05297C6172008EF931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B489AC06297C6172008EF931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B489AC08297C6172008EF931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Squirtle/Squirtle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Squirtle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasz.galinski.Squirtle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B489AC09297C6172008EF931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Squirtle/Squirtle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Squirtle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasz.galinski.Squirtle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B489AC0B297C6172008EF931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasz.galinski.SquirtleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squirtle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Squirtle";
+			};
+			name = Debug;
+		};
+		B489AC0C297C6172008EF931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasz.galinski.SquirtleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squirtle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Squirtle";
+			};
+			name = Release;
+		};
+		B489AC0E297C6172008EF931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasz.galinski.SquirtleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Squirtle;
+			};
+			name = Debug;
+		};
+		B489AC0F297C6172008EF931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lukasz.galinski.SquirtleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Squirtle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B489ABDD297C6171008EF931 /* Build configuration list for PBXProject "Squirtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B489AC05297C6172008EF931 /* Debug */,
+				B489AC06297C6172008EF931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B489AC07297C6172008EF931 /* Build configuration list for PBXNativeTarget "Squirtle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B489AC08297C6172008EF931 /* Debug */,
+				B489AC09297C6172008EF931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B489AC0A297C6172008EF931 /* Build configuration list for PBXNativeTarget "SquirtleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B489AC0B297C6172008EF931 /* Debug */,
+				B489AC0C297C6172008EF931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B489AC0D297C6172008EF931 /* Build configuration list for PBXNativeTarget "SquirtleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B489AC0E297C6172008EF931 /* Debug */,
+				B489AC0F297C6172008EF931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B489ABDA297C6171008EF931 /* Project object */;
+}
