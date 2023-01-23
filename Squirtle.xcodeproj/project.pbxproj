@@ -14,6 +14,7 @@
 		B489ABF8297C6172008EF931 /* SquirtleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489ABF7297C6172008EF931 /* SquirtleTests.swift */; };
 		B489AC02297C6172008EF931 /* SquirtleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489AC01297C6172008EF931 /* SquirtleUITests.swift */; };
 		B489AC04297C6172008EF931 /* SquirtleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489AC03297C6172008EF931 /* SquirtleUITestsLaunchTests.swift */; };
+		B489AC11297C7A5B008EF931 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489AC10297C7A5B008EF931 /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B489ABFD297C6172008EF931 /* SquirtleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquirtleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B489AC01297C6172008EF931 /* SquirtleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirtleUITests.swift; sourceTree = "<group>"; };
 		B489AC03297C6172008EF931 /* SquirtleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirtleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B489AC10297C7A5B008EF931 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B489ABE5297C6171008EF931 /* SquirtleApp.swift */,
 				B489ABE7297C6171008EF931 /* ContentView.swift */,
+				B489AC10297C7A5B008EF931 /* NavigationBar.swift */,
 				B489ABE9297C6172008EF931 /* Assets.xcassets */,
 				B489ABEE297C6172008EF931 /* Squirtle.entitlements */,
 				B489ABEB297C6172008EF931 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				B489ABE8297C6171008EF931 /* ContentView.swift in Sources */,
 				B489ABE6297C6171008EF931 /* SquirtleApp.swift in Sources */,
+				B489AC11297C7A5B008EF931 /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
